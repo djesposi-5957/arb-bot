@@ -6,7 +6,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from datetime import datetime, timedelta
+from selenium.common.exceptions import NoSuchElementException
+from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 class BetMGMScraper:
@@ -93,9 +94,15 @@ class BetMGMScraper:
             driver.get(game)
             time.sleep(3)
             rows = driver.find_elements(By.CSS_SELECTOR, "ms-six-pack-option-group .option-row")
-            scoreboard = driver.find_element(By.TAG_NAME, "ms-prematch-scoreboard")
-            date_text = scoreboard.find_element(By.CSS_SELECTOR, ".event-time .date").text.strip()
-            time_text = scoreboard.find_element(By.CSS_SELECTOR, ".event-time .time").text.strip()
+            try:
+                scoreboard = driver.find_element(By.TAG_NAME, "ms-prematch-scoreboard")
+                date_text = scoreboard.find_element(By.CSS_SELECTOR, ".event-time .date").text.strip()
+                time_text = scoreboard.find_element(By.CSS_SELECTOR, ".event-time .time").text.strip()
+                commence_time = self.convert_time(date_text, time_text)
+            except NoSuchElementException:
+                commence_time = None
+            except Exception:
+                commence_time = None
 
 
 
@@ -126,22 +133,23 @@ class BetMGMScraper:
                     print("Row failed:", e)
 
             if len(records) != 0:
+
                 data_team = {
                     "sportsbook": self.name,
                     "sport": sport,
-                    "teamA": records[0]["team"],
+                    "teamA": records[0]["team"].lower(),
                     "moneylineA": records[0]["odds_american"],
                     "odds_decimalA": self.american_to_decimal(records[0]["odds_american"]),
-                    "teamB": records[1]["team"],
+                    "teamB": records[1]["team"].lower(),
                     "moneylineB": records[1]["odds_american"],
                     "odds_decimalB": self.american_to_decimal(records[1]["odds_american"]),
                     "game_url": game,
-                    "commence_time": self.convert_time(date_text, time_text),
-                    "time": time.asctime(time.localtime())
+                    "commence_time": commence_time,
+                    "time": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
                 }
+
 
                 data_list.append(data_team)
         return data_list
 
-app = BetMGMScraper()
-print(app.fetch_data("nba"))
+

@@ -3,6 +3,7 @@ from scrapers.draftkings import DraftKingsScraper
 from scrapers.betmgm import BetMGMScraper
 from scrapers.theodds import TheOddsApiCall
 
+
 all_books = ["draftkings", "betmgm", "fanduel", "bovada", "betrivers"]
 all_sports = ["nba", "nhl", "mlb"]
 scrapers = {
@@ -47,7 +48,7 @@ if many_sites:
         data = scraper.fetch_data(sport, many_sites)
 
 if one_site:
-    for site in selected_sites:
+    for site in one_site:
         scraper = scrapers[site]()
 
         for sport in selected_sports:

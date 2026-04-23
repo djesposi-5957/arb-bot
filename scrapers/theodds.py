@@ -22,7 +22,7 @@ class TheOddsApiCall:
         if len(books) > 1:
             books = ",".join(books)
         else:
-            books = books
+            books = books[0]
 
         odds_response = requests.get(f'https://api.the-odds-api.com/v4/sports/{sport}/odds?', params={
             'api_key': self.api_key,
