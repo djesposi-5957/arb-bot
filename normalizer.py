@@ -222,6 +222,7 @@ NBA_TEAM_MAP = {
 
     "phoenix suns": "suns",
     "phx suns": "suns",
+    "pho suns": "suns",
     "suns": "suns",
 
     "sacramento kings": "kings",
@@ -294,6 +295,7 @@ NHL_TEAM_MAP = {
 
     "columbus blue jackets": "blue jackets",
     "cbj blue jackets": "blue jackets",
+    "col blue jackets": "blue jackets",
     "blue jackets": "blue jackets",
 
     "new jersey devils": "devils",
@@ -349,8 +351,9 @@ NHL_TEAM_MAP = {
     "st louis blues": "blues",
     "blues": "blues",
 
-    "utah hockey club": "utah",
-    "utah": "utah",
+    "utah mammoth": "mammoth",
+    "uta mammoth": "mammoth",
+    "mammoth": "mammoth",
 
     "winnipeg jets": "jets",
     "wpg jets": "jets",
