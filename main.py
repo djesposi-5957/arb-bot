@@ -2,6 +2,8 @@ import argparse
 from scrapers.draftkings import DraftKingsScraper
 from scrapers.betmgm import BetMGMScraper
 from scrapers.theodds import TheOddsApiCall
+from cleaner import clean_data, clean_data_api
+import pandas as pd
 
 
 all_books = ["draftkings", "betmgm", "fanduel", "bovada", "betrivers"]
@@ -31,6 +33,7 @@ if "all" in args.sport:
 else:
     selected_sports = args.sport
 
+df_large = []
 
 one_site = []
 many_sites = []
@@ -46,6 +49,8 @@ if many_sites:
 
     for sport in selected_sports:
         data = scraper.fetch_data(sport, many_sites)
+        cleaned_data = clean_data_api(data)
+        df_large.append(cleaned_data)
 
 if one_site:
     for site in one_site:
@@ -53,3 +58,7 @@ if one_site:
 
         for sport in selected_sports:
             data = scraper.fetch_data(sport)
+            cleaned_data = clean_data(data)
+            df_large.append(cleaned_data)
+
+final_df = pd.concat(df_large, ignore_index=True)
