@@ -9,6 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
+import json
 
 class BetMGMScraper:
     def __init__(self):
@@ -150,6 +151,10 @@ class BetMGMScraper:
 
 
                 data_list.append(data_team)
+        timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+        filename = f"data/raw_data/{sport}/{sport}_{timestamp}.json"
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(data_list, f, indent=2)
         return data_list
 
 

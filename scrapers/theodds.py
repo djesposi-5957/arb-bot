@@ -1,5 +1,6 @@
 import requests
 import json
+from datetime import datetime
 
 
 class TheOddsApiCall:
@@ -11,7 +12,7 @@ class TheOddsApiCall:
 
 
     def fetch_data(self, sport, books):
-
+        save_sport = sport
         if sport == "mlb":
             sport = "baseball_mlb"
         if sport == "nhl":
@@ -33,7 +34,10 @@ class TheOddsApiCall:
         })
 
         odds_json = odds_response.json()
-        print(json.dumps(odds_json, indent=2))
+        timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+        filename = f"data/raw_data/{save_sport}/{save_sport}_{timestamp}.json"
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(odds_json, f, indent=2)
         print('Total credits remaining', odds_response.headers['x-requests-remaining'])
         return odds_json
 

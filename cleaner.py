@@ -20,8 +20,8 @@ def clean_data_api(dirty_data):
     for game in dirty_data:
         sport = game.get("sport_title").lower()
         commence_str = game.get("commence_time")
-        team_a = game.get("home_team", "").strip()
-        team_b = game.get("away_team", "").strip()
+        team_a = game.get("home_team", "").lower().strip()
+        team_b = game.get("away_team", "").lower().strip()
 
         if sport == "mlb":
             team_a = normalizer.MLB_TEAM_MAP.get(team_a, team_a)
@@ -35,15 +35,15 @@ def clean_data_api(dirty_data):
 
         game_id = "__".join(sorted([team_a, team_b]))
         now = datetime.now(timezone.utc)
-        commence_time = datetime.fromisoformat(commence_str).replace("Z", "+00:00")
+        commence_time = datetime.fromisoformat(commence_str.replace("Z", "+00:00"))
         if now > commence_time:
             status = "live"
         else:
             status = "upcoming"
 
         for bookmaker in game.get("bookmakers", []):
-            sportsbook = bookmaker.get["title"].lower()
-            scrape_time = bookmaker.get["last_update"]
+            sportsbook = bookmaker.get("title").lower()
+            scrape_time = bookmaker.get("last_update")
             for market in bookmaker.get("markets", []):
                 odds_list = []
                 for outcome in market.get("outcomes", []):
@@ -81,8 +81,8 @@ def clean_data(dirty_data):
 
     for game in dirty_data:
         sport = game.get("sport")
-        team_a = game.get("teamA", "").strip()
-        team_b = game.get("teamB", "").strip()
+        team_a = game.get("teamA", "").lower().strip()
+        team_b = game.get("teamB", "").lower().strip()
         if sport == "mlb":
             team_a = normalizer.MLB_TEAM_MAP.get(team_a, team_a)
             team_b = normalizer.MLB_TEAM_MAP.get(team_b, team_b)
