@@ -1,0 +1,45 @@
+sportsbook,sport,game_id,team,odds_decimal,commence_time,status,scrape_time
+fanduel,nba,Boston Celtics__Philadelphia 76ers,Philadelphia 76ers,1.43,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:29:24Z
+fanduel,nba,Boston Celtics__Philadelphia 76ers,Boston Celtics,2.9,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:29:24Z
+betrivers,nba,Boston Celtics__Philadelphia 76ers,Philadelphia 76ers,1.38,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:28:39Z
+betrivers,nba,Boston Celtics__Philadelphia 76ers,Boston Celtics,3.05,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:28:39Z
+bovada,nba,Boston Celtics__Philadelphia 76ers,Philadelphia 76ers,1.43,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:28:21Z
+bovada,nba,Boston Celtics__Philadelphia 76ers,Boston Celtics,2.95,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:28:21Z
+fanduel,nba,Houston Rockets__Los Angeles Lakers,Houston Rockets,1.69,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:29:24Z
+fanduel,nba,Houston Rockets__Los Angeles Lakers,Los Angeles Lakers,2.22,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:29:24Z
+betrivers,nba,Houston Rockets__Los Angeles Lakers,Houston Rockets,1.71,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:29:24Z
+betrivers,nba,Houston Rockets__Los Angeles Lakers,Los Angeles Lakers,2.14,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:29:24Z
+bovada,nba,Houston Rockets__Los Angeles Lakers,Houston Rockets,1.71,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:28:21Z
+bovada,nba,Houston Rockets__Los Angeles Lakers,Los Angeles Lakers,2.2,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:28:21Z
+betrivers,nba,Detroit Pistons__Orlando Magic,Orlando Magic,1.66,2026-04-28T00:10:00Z,upcoming,2026-04-26T22:29:24Z
+betrivers,nba,Detroit Pistons__Orlando Magic,Detroit Pistons,2.23,2026-04-28T00:10:00Z,upcoming,2026-04-26T22:29:24Z
+fanduel,nba,Detroit Pistons__Orlando Magic,Orlando Magic,1.68,2026-04-28T00:10:00Z,upcoming,2026-04-26T22:29:24Z
+fanduel,nba,Detroit Pistons__Orlando Magic,Detroit Pistons,2.26,2026-04-28T00:10:00Z,upcoming,2026-04-26T22:29:24Z
+bovada,nba,Detroit Pistons__Orlando Magic,Orlando Magic,1.67,2026-04-28T00:10:00Z,upcoming,2026-04-26T22:28:21Z
+bovada,nba,Detroit Pistons__Orlando Magic,Detroit Pistons,2.3,2026-04-28T00:10:00Z,upcoming,2026-04-26T22:28:21Z
+fanduel,nba,Oklahoma City Thunder__Phoenix Suns,Phoenix Suns,1.22,2026-04-28T01:40:00Z,upcoming,2026-04-26T22:29:24Z
+fanduel,nba,Oklahoma City Thunder__Phoenix Suns,Oklahoma City Thunder,4.6,2026-04-28T01:40:00Z,upcoming,2026-04-26T22:29:24Z
+betrivers,nba,Oklahoma City Thunder__Phoenix Suns,Phoenix Suns,1.18,2026-04-28T01:40:00Z,upcoming,2026-04-26T22:29:24Z
+betrivers,nba,Oklahoma City Thunder__Phoenix Suns,Oklahoma City Thunder,4.8,2026-04-28T01:40:00Z,upcoming,2026-04-26T22:29:24Z
+fanduel,nba,Denver Nuggets__Minnesota Timberwolves,Denver Nuggets,1.19,2026-04-28T02:40:00Z,upcoming,2026-04-26T22:29:24Z
+fanduel,nba,Denver Nuggets__Minnesota Timberwolves,Minnesota Timberwolves,5.0,2026-04-28T02:40:00Z,upcoming,2026-04-26T22:29:24Z
+betrivers,nba,Denver Nuggets__Minnesota Timberwolves,Denver Nuggets,1.18,2026-04-28T02:40:00Z,upcoming,2026-04-26T22:29:24Z
+betrivers,nba,Denver Nuggets__Minnesota Timberwolves,Minnesota Timberwolves,4.9,2026-04-28T02:40:00Z,upcoming,2026-04-26T22:29:24Z
+bovada,nba,Denver Nuggets__Minnesota Timberwolves,Denver Nuggets,1.2,2026-04-28T02:40:00Z,upcoming,2026-04-26T22:28:21Z
+bovada,nba,Denver Nuggets__Minnesota Timberwolves,Minnesota Timberwolves,4.7,2026-04-28T02:40:00Z,upcoming,2026-04-26T22:28:21Z
+fanduel,nba,Atlanta Hawks__New York Knicks,New York Knicks,3.35,2026-04-29T00:10:00Z,upcoming,2026-04-26T22:29:24Z
+fanduel,nba,Atlanta Hawks__New York Knicks,Atlanta Hawks,1.34,2026-04-29T00:10:00Z,upcoming,2026-04-26T22:29:24Z
+betrivers,nba,Atlanta Hawks__New York Knicks,New York Knicks,3.15,2026-04-29T00:10:00Z,upcoming,2026-04-26T22:29:24Z
+betrivers,nba,Atlanta Hawks__New York Knicks,Atlanta Hawks,1.36,2026-04-29T00:10:00Z,upcoming,2026-04-26T22:29:24Z
+bovada,nba,Atlanta Hawks__New York Knicks,New York Knicks,3.3,2026-04-29T00:10:00Z,upcoming,2026-04-26T22:28:21Z
+bovada,nba,Atlanta Hawks__New York Knicks,Atlanta Hawks,1.36,2026-04-29T00:10:00Z,upcoming,2026-04-26T22:28:21Z
+betrivers,nba,Portland Trail Blazers__San Antonio Spurs,San Antonio Spurs,5.4,2026-04-29T01:40:00Z,upcoming,2026-04-26T22:29:24Z
+betrivers,nba,Portland Trail Blazers__San Antonio Spurs,Portland Trail Blazers,1.15,2026-04-29T01:40:00Z,upcoming,2026-04-26T22:29:24Z
+fanduel,nba,Portland Trail Blazers__San Antonio Spurs,San Antonio Spurs,5.8,2026-04-29T01:40:00Z,upcoming,2026-04-26T22:29:24Z
+fanduel,nba,Portland Trail Blazers__San Antonio Spurs,Portland Trail Blazers,1.15,2026-04-29T01:40:00Z,upcoming,2026-04-26T22:29:24Z
+betrivers,nba,Cleveland Cavaliers__Toronto Raptors,Cleveland Cavaliers,1.23,2026-04-29T23:10:00Z,upcoming,2026-04-26T22:29:24Z
+betrivers,nba,Cleveland Cavaliers__Toronto Raptors,Toronto Raptors,4.2,2026-04-29T23:10:00Z,upcoming,2026-04-26T22:29:24Z
+fanduel,nba,Cleveland Cavaliers__Toronto Raptors,Cleveland Cavaliers,1.23,2026-04-29T23:10:00Z,upcoming,2026-04-26T22:29:24Z
+fanduel,nba,Cleveland Cavaliers__Toronto Raptors,Toronto Raptors,4.4,2026-04-29T23:10:00Z,upcoming,2026-04-26T22:29:24Z
+bovada,nba,Cleveland Cavaliers__Toronto Raptors,Cleveland Cavaliers,1.26,2026-04-29T23:10:00Z,upcoming,2026-04-26T22:28:21Z
+bovada,nba,Cleveland Cavaliers__Toronto Raptors,Toronto Raptors,3.9,2026-04-29T23:10:00Z,upcoming,2026-04-26T22:28:21Z

@@ -1,0 +1,63 @@
+sportsbook,sport,game_id,team,odds_decimal,commence_time,status,scrape_time
+fanduel,nhl,avalanche__kings,kings,1.14,2026-04-26T20:50:00Z,live,2026-04-26T22:48:50Z
+fanduel,nhl,avalanche__kings,avalanche,5.5,2026-04-26T20:50:00Z,live,2026-04-26T22:48:50Z
+bovada,nhl,avalanche__kings,kings,1.19,2026-04-26T20:50:00Z,live,2026-04-26T22:46:07Z
+bovada,nhl,avalanche__kings,avalanche,4.4,2026-04-26T20:50:00Z,live,2026-04-26T22:46:07Z
+fanduel,nhl,lightning__montréal canadiens,montréal canadiens,1.98,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:48:50Z
+fanduel,nhl,lightning__montréal canadiens,lightning,1.85,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:48:50Z
+betrivers,nhl,lightning__montréal canadiens,montréal canadiens,2.0,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:44:41Z
+betrivers,nhl,lightning__montréal canadiens,lightning,1.83,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:44:41Z
+bovada,nhl,lightning__montréal canadiens,montréal canadiens,2.05,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:46:07Z
+bovada,nhl,lightning__montréal canadiens,lightning,1.8,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:46:07Z
+fanduel,nhl,ducks__oilers,ducks,2.14,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:48:50Z
+fanduel,nhl,ducks__oilers,oilers,1.73,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:48:50Z
+betrivers,nhl,ducks__oilers,ducks,2.14,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:49:13Z
+betrivers,nhl,ducks__oilers,oilers,1.73,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:49:13Z
+bovada,nhl,ducks__oilers,ducks,2.15,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:46:07Z
+bovada,nhl,ducks__oilers,oilers,1.74,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:46:07Z
+fanduel,nhl,flyers__penguins,penguins,2.14,2026-04-27T23:00:00Z,upcoming,2026-04-26T22:48:50Z
+fanduel,nhl,flyers__penguins,flyers,1.73,2026-04-27T23:00:00Z,upcoming,2026-04-26T22:48:50Z
+betrivers,nhl,flyers__penguins,penguins,2.18,2026-04-27T23:00:00Z,upcoming,2026-04-26T22:49:13Z
+betrivers,nhl,flyers__penguins,flyers,1.7,2026-04-27T23:00:00Z,upcoming,2026-04-26T22:49:13Z
+bovada,nhl,flyers__penguins,penguins,2.17,2026-04-27T23:00:00Z,upcoming,2026-04-26T22:46:07Z
+bovada,nhl,flyers__penguins,flyers,1.72,2026-04-27T23:00:00Z,upcoming,2026-04-26T22:46:07Z
+fanduel,nhl,golden knights__mammoth,mammoth,2.0,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:48:50Z
+fanduel,nhl,golden knights__mammoth,golden knights,1.83,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:48:50Z
+betrivers,nhl,golden knights__mammoth,mammoth,1.96,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:49:13Z
+betrivers,nhl,golden knights__mammoth,golden knights,1.85,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:49:13Z
+bovada,nhl,golden knights__mammoth,mammoth,1.97,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:46:07Z
+bovada,nhl,golden knights__mammoth,golden knights,1.85,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:46:07Z
+fanduel,nhl,bruins__sabres,sabres,2.58,2026-04-28T23:40:00Z,upcoming,2026-04-26T22:48:50Z
+fanduel,nhl,bruins__sabres,bruins,1.52,2026-04-28T23:40:00Z,upcoming,2026-04-26T22:48:50Z
+betrivers,nhl,bruins__sabres,sabres,2.45,2026-04-28T23:40:00Z,upcoming,2026-04-26T22:49:13Z
+betrivers,nhl,bruins__sabres,bruins,1.56,2026-04-28T23:40:00Z,upcoming,2026-04-26T22:49:13Z
+fanduel,nhl,stars__wild,stars,1.78,2026-04-29T00:00:00Z,upcoming,2026-04-26T22:48:50Z
+fanduel,nhl,stars__wild,wild,2.06,2026-04-29T00:00:00Z,upcoming,2026-04-26T22:48:50Z
+betrivers,nhl,stars__wild,stars,1.79,2026-04-29T00:00:00Z,upcoming,2026-04-26T22:49:13Z
+betrivers,nhl,stars__wild,wild,2.05,2026-04-29T00:00:00Z,upcoming,2026-04-26T22:49:13Z
+bovada,nhl,stars__wild,stars,1.77,2026-04-29T00:00:00Z,upcoming,2026-04-26T22:46:07Z
+bovada,nhl,stars__wild,wild,2.1,2026-04-29T00:00:00Z,upcoming,2026-04-26T22:46:07Z
+fanduel,nhl,flyers__hurricanes,hurricanes,1.48,2026-05-05T23:00:09Z,upcoming,2026-04-26T22:48:50Z
+fanduel,nhl,flyers__hurricanes,flyers,2.72,2026-05-05T23:00:09Z,upcoming,2026-04-26T22:48:50Z
+fanduel,nhl,hurricanes__penguins,hurricanes,1.48,2026-05-05T23:00:24Z,upcoming,2026-04-26T22:48:50Z
+fanduel,nhl,hurricanes__penguins,penguins,2.72,2026-05-05T23:00:24Z,upcoming,2026-04-26T22:48:50Z
+BetMGM,nhl,avalanche__kings,avalanche,1.182,,live,2026-04-26T22:49:33Z
+BetMGM,nhl,avalanche__kings,kings,4.75,,live,2026-04-26T22:49:33Z
+BetMGM,nhl,avalanche__kings,avalanche,1.182,,live,2026-04-26T22:49:37Z
+BetMGM,nhl,avalanche__kings,kings,4.75,,live,2026-04-26T22:49:37Z
+BetMGM,nhl,canadiens__lightning,lightning,1.87,,live,2026-04-26T22:49:40Z
+BetMGM,nhl,canadiens__lightning,canadiens,1.952,,live,2026-04-26T22:49:40Z
+BetMGM,nhl,canadiens__lightning,lightning,1.87,,live,2026-04-26T22:49:43Z
+BetMGM,nhl,canadiens__lightning,canadiens,1.952,,live,2026-04-26T22:49:43Z
+BetMGM,nhl,ducks__oilers,oilers,1.741,2026-04-27T01:38:00Z,upcoming,2026-04-26T22:49:47Z
+BetMGM,nhl,ducks__oilers,ducks,2.15,2026-04-27T01:38:00Z,upcoming,2026-04-26T22:49:47Z
+BetMGM,nhl,ducks__oilers,oilers,1.741,2026-04-27T01:38:00Z,upcoming,2026-04-26T22:49:50Z
+BetMGM,nhl,ducks__oilers,ducks,2.15,2026-04-27T01:38:00Z,upcoming,2026-04-26T22:49:50Z
+BetMGM,nhl,flyers__penguins,flyers,2.15,2026-04-27T23:08:00Z,upcoming,2026-04-26T22:49:53Z
+BetMGM,nhl,flyers__penguins,penguins,1.714,2026-04-27T23:08:00Z,upcoming,2026-04-26T22:49:53Z
+BetMGM,nhl,golden knights__mammoth,golden knights,1.87,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:49:57Z
+BetMGM,nhl,golden knights__mammoth,mammoth,1.952,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:49:57Z
+BetMGM,nhl,bruins__sabres,bruins,2.45,2026-04-28T23:08:00Z,upcoming,2026-04-26T22:50:00Z
+BetMGM,nhl,bruins__sabres,sabres,1.571,2026-04-28T23:08:00Z,upcoming,2026-04-26T22:50:00Z
+BetMGM,nhl,stars__wild,wild,2.1,2026-04-28T23:08:00Z,upcoming,2026-04-26T22:50:04Z
+BetMGM,nhl,stars__wild,stars,1.741,2026-04-28T23:08:00Z,upcoming,2026-04-26T22:50:04Z

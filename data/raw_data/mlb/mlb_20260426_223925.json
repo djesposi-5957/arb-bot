@@ -1,0 +1,28 @@
+[
+  {
+    "sportsbook": "BetMGM",
+    "sport": "mlb",
+    "teamA": "padres",
+    "moneylineA": "+475",
+    "odds_decimalA": 5.75,
+    "teamB": "diamondbacks",
+    "moneylineB": "-750",
+    "odds_decimalB": 1.133,
+    "game_url": "https://www.az.betmgm.com/en/sports/events/san-diego-padres-at-arizona-diamondbacks-neutral-19253240",
+    "commence_time": null,
+    "time": "2026-04-26T22:39:15Z"
+  },
+  {
+    "sportsbook": "BetMGM",
+    "sport": "mlb",
+    "teamA": "rockies",
+    "moneylineA": "-700",
+    "odds_decimalA": 1.143,
+    "teamB": "mets",
+    "moneylineB": "+450",
+    "odds_decimalB": 5.5,
+    "game_url": "https://www.az.betmgm.com/en/sports/events/colorado-rockies-at-new-york-mets-game-2-19456131",
+    "commence_time": null,
+    "time": "2026-04-26T22:39:25Z"
+  }
+]

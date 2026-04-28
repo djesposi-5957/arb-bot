@@ -1,0 +1,81 @@
+sportsbook,sport,game_id,team,odds_decimal,commence_time,status,scrape_time
+draftkings,nba,magic__pistons,magic,1.65,2026-04-28T00:10:00Z,upcoming,2026-04-27T18:11:25Z
+draftkings,nba,magic__pistons,pistons,2.3,2026-04-28T00:10:00Z,upcoming,2026-04-27T18:11:25Z
+betmgm,nba,magic__pistons,magic,1.62,2026-04-28T00:10:00Z,upcoming,2026-04-27T18:10:58Z
+betmgm,nba,magic__pistons,pistons,2.35,2026-04-28T00:10:00Z,upcoming,2026-04-27T18:10:58Z
+betrivers,nba,magic__pistons,magic,1.62,2026-04-28T00:10:00Z,upcoming,2026-04-27T18:10:58Z
+betrivers,nba,magic__pistons,pistons,2.3,2026-04-28T00:10:00Z,upcoming,2026-04-27T18:10:58Z
+fanduel,nba,magic__pistons,magic,1.63,2026-04-28T00:10:00Z,upcoming,2026-04-27T18:11:49Z
+fanduel,nba,magic__pistons,pistons,2.34,2026-04-28T00:10:00Z,upcoming,2026-04-27T18:11:49Z
+bovada,nba,magic__pistons,magic,1.62,2026-04-28T00:10:00Z,upcoming,2026-04-27T18:05:03Z
+bovada,nba,magic__pistons,pistons,2.35,2026-04-28T00:10:00Z,upcoming,2026-04-27T18:05:03Z
+draftkings,nba,suns__thunder,suns,1.2,2026-04-28T01:40:00Z,upcoming,2026-04-27T18:11:25Z
+draftkings,nba,suns__thunder,thunder,4.8,2026-04-28T01:40:00Z,upcoming,2026-04-27T18:11:25Z
+betmgm,nba,suns__thunder,suns,1.18,2026-04-28T01:40:00Z,upcoming,2026-04-27T18:10:58Z
+betmgm,nba,suns__thunder,thunder,5.0,2026-04-28T01:40:00Z,upcoming,2026-04-27T18:10:58Z
+fanduel,nba,suns__thunder,suns,1.18,2026-04-28T01:40:00Z,upcoming,2026-04-27T18:11:49Z
+fanduel,nba,suns__thunder,thunder,5.2,2026-04-28T01:40:00Z,upcoming,2026-04-27T18:11:49Z
+betrivers,nba,suns__thunder,suns,1.18,2026-04-28T01:40:00Z,upcoming,2026-04-27T18:10:58Z
+betrivers,nba,suns__thunder,thunder,4.9,2026-04-28T01:40:00Z,upcoming,2026-04-27T18:10:58Z
+bovada,nba,suns__thunder,suns,1.19,2026-04-28T01:40:00Z,upcoming,2026-04-27T18:05:03Z
+bovada,nba,suns__thunder,thunder,4.75,2026-04-28T01:40:00Z,upcoming,2026-04-27T18:05:03Z
+draftkings,nba,nuggets__timberwolves,nuggets,1.2,2026-04-28T02:40:00Z,upcoming,2026-04-27T18:11:25Z
+draftkings,nba,nuggets__timberwolves,timberwolves,4.8,2026-04-28T02:40:00Z,upcoming,2026-04-27T18:11:25Z
+betmgm,nba,nuggets__timberwolves,nuggets,1.2,2026-04-28T02:40:00Z,upcoming,2026-04-27T18:10:58Z
+betmgm,nba,nuggets__timberwolves,timberwolves,4.75,2026-04-28T02:40:00Z,upcoming,2026-04-27T18:10:58Z
+fanduel,nba,nuggets__timberwolves,nuggets,1.2,2026-04-28T02:40:00Z,upcoming,2026-04-27T18:11:49Z
+fanduel,nba,nuggets__timberwolves,timberwolves,4.85,2026-04-28T02:40:00Z,upcoming,2026-04-27T18:11:49Z
+betrivers,nba,nuggets__timberwolves,nuggets,1.19,2026-04-28T02:40:00Z,upcoming,2026-04-27T18:10:58Z
+betrivers,nba,nuggets__timberwolves,timberwolves,4.8,2026-04-28T02:40:00Z,upcoming,2026-04-27T18:10:58Z
+bovada,nba,nuggets__timberwolves,nuggets,1.19,2026-04-28T02:40:00Z,upcoming,2026-04-27T18:05:03Z
+bovada,nba,nuggets__timberwolves,timberwolves,4.75,2026-04-28T02:40:00Z,upcoming,2026-04-27T18:05:03Z
+fanduel,nba,76ers__celtics,celtics,1.18,2026-04-28T23:10:00Z,upcoming,2026-04-27T18:11:49Z
+fanduel,nba,76ers__celtics,76ers,5.1,2026-04-28T23:10:00Z,upcoming,2026-04-27T18:11:49Z
+betrivers,nba,76ers__celtics,celtics,1.16,2026-04-28T23:10:00Z,upcoming,2026-04-27T18:10:58Z
+betrivers,nba,76ers__celtics,76ers,5.3,2026-04-28T23:10:00Z,upcoming,2026-04-27T18:10:58Z
+draftkings,nba,76ers__celtics,celtics,1.19,2026-04-28T23:10:00Z,upcoming,2026-04-27T18:11:25Z
+draftkings,nba,76ers__celtics,76ers,4.9,2026-04-28T23:10:00Z,upcoming,2026-04-27T18:11:25Z
+betmgm,nba,76ers__celtics,celtics,1.18,2026-04-28T23:10:00Z,upcoming,2026-04-27T18:10:58Z
+betmgm,nba,76ers__celtics,76ers,5.0,2026-04-28T23:10:00Z,upcoming,2026-04-27T18:10:58Z
+bovada,nba,76ers__celtics,celtics,1.18,2026-04-28T23:10:00Z,upcoming,2026-04-27T18:05:03Z
+bovada,nba,76ers__celtics,76ers,4.9,2026-04-28T23:10:00Z,upcoming,2026-04-27T18:05:03Z
+fanduel,nba,hawks__knicks,knicks,3.25,2026-04-29T00:10:00Z,upcoming,2026-04-27T18:11:49Z
+fanduel,nba,hawks__knicks,hawks,1.36,2026-04-29T00:10:00Z,upcoming,2026-04-27T18:11:49Z
+betrivers,nba,hawks__knicks,knicks,3.2,2026-04-29T00:10:00Z,upcoming,2026-04-27T18:10:58Z
+betrivers,nba,hawks__knicks,hawks,1.35,2026-04-29T00:10:00Z,upcoming,2026-04-27T18:10:58Z
+betmgm,nba,hawks__knicks,knicks,3.25,2026-04-29T00:10:00Z,upcoming,2026-04-27T18:10:58Z
+betmgm,nba,hawks__knicks,hawks,1.35,2026-04-29T00:10:00Z,upcoming,2026-04-27T18:10:58Z
+draftkings,nba,hawks__knicks,knicks,3.15,2026-04-29T00:10:00Z,upcoming,2026-04-27T18:11:25Z
+draftkings,nba,hawks__knicks,hawks,1.38,2026-04-29T00:10:00Z,upcoming,2026-04-27T18:11:25Z
+bovada,nba,hawks__knicks,knicks,3.3,2026-04-29T00:10:00Z,upcoming,2026-04-27T18:05:03Z
+bovada,nba,hawks__knicks,hawks,1.36,2026-04-29T00:10:00Z,upcoming,2026-04-27T18:05:03Z
+draftkings,nba,spurs__trail blazers,spurs,5.25,2026-04-29T01:40:00Z,upcoming,2026-04-27T18:11:25Z
+draftkings,nba,spurs__trail blazers,trail blazers,1.17,2026-04-29T01:40:00Z,upcoming,2026-04-27T18:11:25Z
+betrivers,nba,spurs__trail blazers,spurs,6.1,2026-04-29T01:40:00Z,upcoming,2026-04-27T18:10:58Z
+betrivers,nba,spurs__trail blazers,trail blazers,1.12,2026-04-29T01:40:00Z,upcoming,2026-04-27T18:10:58Z
+fanduel,nba,spurs__trail blazers,spurs,5.6,2026-04-29T01:40:00Z,upcoming,2026-04-27T18:11:49Z
+fanduel,nba,spurs__trail blazers,trail blazers,1.15,2026-04-29T01:40:00Z,upcoming,2026-04-27T18:11:49Z
+betmgm,nba,spurs__trail blazers,spurs,6.0,2026-04-29T01:40:00Z,upcoming,2026-04-27T18:10:58Z
+betmgm,nba,spurs__trail blazers,trail blazers,1.14,2026-04-29T01:40:00Z,upcoming,2026-04-27T18:10:58Z
+bovada,nba,spurs__trail blazers,spurs,5.3,2026-04-29T01:40:00Z,upcoming,2026-04-27T18:05:03Z
+bovada,nba,spurs__trail blazers,trail blazers,1.16,2026-04-29T01:40:00Z,upcoming,2026-04-27T18:05:03Z
+draftkings,nba,cavaliers__raptors,cavaliers,1.24,2026-04-29T23:10:00Z,upcoming,2026-04-27T18:11:25Z
+draftkings,nba,cavaliers__raptors,raptors,4.2,2026-04-29T23:10:00Z,upcoming,2026-04-27T18:11:25Z
+betrivers,nba,cavaliers__raptors,cavaliers,1.23,2026-04-29T23:10:00Z,upcoming,2026-04-27T18:10:58Z
+betrivers,nba,cavaliers__raptors,raptors,4.1,2026-04-29T23:10:00Z,upcoming,2026-04-27T18:10:58Z
+fanduel,nba,cavaliers__raptors,cavaliers,1.27,2026-04-29T23:10:00Z,upcoming,2026-04-27T18:11:49Z
+fanduel,nba,cavaliers__raptors,raptors,4.0,2026-04-29T23:10:00Z,upcoming,2026-04-27T18:11:49Z
+betmgm,nba,cavaliers__raptors,cavaliers,1.25,2026-04-29T23:10:00Z,upcoming,2026-04-27T18:10:58Z
+betmgm,nba,cavaliers__raptors,raptors,4.1,2026-04-29T23:10:00Z,upcoming,2026-04-27T18:10:58Z
+bovada,nba,cavaliers__raptors,cavaliers,1.26,2026-04-29T23:10:00Z,upcoming,2026-04-27T18:05:03Z
+bovada,nba,cavaliers__raptors,raptors,3.9,2026-04-29T23:10:00Z,upcoming,2026-04-27T18:05:03Z
+draftkings,nba,lakers__rockets,lakers,2.2,2026-04-30T01:40:00Z,upcoming,2026-04-27T18:11:25Z
+draftkings,nba,lakers__rockets,rockets,1.7,2026-04-30T01:40:00Z,upcoming,2026-04-27T18:11:25Z
+fanduel,nba,lakers__rockets,lakers,2.24,2026-04-30T01:40:00Z,upcoming,2026-04-27T18:11:49Z
+fanduel,nba,lakers__rockets,rockets,1.68,2026-04-30T01:40:00Z,upcoming,2026-04-27T18:11:49Z
+betmgm,nba,lakers__rockets,lakers,2.25,2026-04-30T01:40:00Z,upcoming,2026-04-27T18:10:58Z
+betmgm,nba,lakers__rockets,rockets,1.67,2026-04-30T01:40:00Z,upcoming,2026-04-27T18:10:58Z
+betrivers,nba,lakers__rockets,lakers,2.23,2026-04-30T01:40:00Z,upcoming,2026-04-27T18:10:58Z
+betrivers,nba,lakers__rockets,rockets,1.66,2026-04-30T01:40:00Z,upcoming,2026-04-27T18:10:58Z
+bovada,nba,lakers__rockets,lakers,2.3,2026-04-30T01:40:00Z,upcoming,2026-04-27T18:05:03Z
+bovada,nba,lakers__rockets,rockets,1.67,2026-04-30T01:40:00Z,upcoming,2026-04-27T18:05:03Z

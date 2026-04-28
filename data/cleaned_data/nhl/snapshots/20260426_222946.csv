@@ -1,0 +1,43 @@
+sportsbook,sport,game_id,team,odds_decimal,commence_time,status,scrape_time
+fanduel,nhl,Colorado Avalanche__Los Angeles Kings,Los Angeles Kings,1.15,2026-04-26T20:50:00Z,live,2026-04-26T22:29:03Z
+fanduel,nhl,Colorado Avalanche__Los Angeles Kings,Colorado Avalanche,5.2,2026-04-26T20:50:00Z,live,2026-04-26T22:29:03Z
+bovada,nhl,Colorado Avalanche__Los Angeles Kings,Los Angeles Kings,1.2,2026-04-26T20:50:00Z,live,2026-04-26T22:29:11Z
+bovada,nhl,Colorado Avalanche__Los Angeles Kings,Colorado Avalanche,4.25,2026-04-26T20:50:00Z,live,2026-04-26T22:29:11Z
+fanduel,nhl,Montréal Canadiens__Tampa Bay Lightning,Montréal Canadiens,1.98,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:29:03Z
+fanduel,nhl,Montréal Canadiens__Tampa Bay Lightning,Tampa Bay Lightning,1.85,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:29:03Z
+betrivers,nhl,Montréal Canadiens__Tampa Bay Lightning,Montréal Canadiens,1.96,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:29:26Z
+betrivers,nhl,Montréal Canadiens__Tampa Bay Lightning,Tampa Bay Lightning,1.85,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:29:26Z
+bovada,nhl,Montréal Canadiens__Tampa Bay Lightning,Montréal Canadiens,1.97,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:29:11Z
+bovada,nhl,Montréal Canadiens__Tampa Bay Lightning,Tampa Bay Lightning,1.85,2026-04-26T23:10:00Z,upcoming,2026-04-26T22:29:11Z
+fanduel,nhl,Anaheim Ducks__Edmonton Oilers,Anaheim Ducks,2.14,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:29:03Z
+fanduel,nhl,Anaheim Ducks__Edmonton Oilers,Edmonton Oilers,1.73,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:29:03Z
+betrivers,nhl,Anaheim Ducks__Edmonton Oilers,Anaheim Ducks,2.14,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:29:26Z
+betrivers,nhl,Anaheim Ducks__Edmonton Oilers,Edmonton Oilers,1.73,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:29:26Z
+bovada,nhl,Anaheim Ducks__Edmonton Oilers,Anaheim Ducks,2.15,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:29:11Z
+bovada,nhl,Anaheim Ducks__Edmonton Oilers,Edmonton Oilers,1.74,2026-04-27T01:40:00Z,upcoming,2026-04-26T22:29:11Z
+fanduel,nhl,Philadelphia Flyers__Pittsburgh Penguins,Pittsburgh Penguins,2.14,2026-04-27T23:00:00Z,upcoming,2026-04-26T22:29:03Z
+fanduel,nhl,Philadelphia Flyers__Pittsburgh Penguins,Philadelphia Flyers,1.73,2026-04-27T23:00:00Z,upcoming,2026-04-26T22:29:03Z
+betrivers,nhl,Philadelphia Flyers__Pittsburgh Penguins,Pittsburgh Penguins,2.18,2026-04-27T23:00:00Z,upcoming,2026-04-26T22:29:26Z
+betrivers,nhl,Philadelphia Flyers__Pittsburgh Penguins,Philadelphia Flyers,1.7,2026-04-27T23:00:00Z,upcoming,2026-04-26T22:29:26Z
+bovada,nhl,Philadelphia Flyers__Pittsburgh Penguins,Pittsburgh Penguins,2.17,2026-04-27T23:00:00Z,upcoming,2026-04-26T22:29:11Z
+bovada,nhl,Philadelphia Flyers__Pittsburgh Penguins,Philadelphia Flyers,1.72,2026-04-27T23:00:00Z,upcoming,2026-04-26T22:29:11Z
+fanduel,nhl,Utah Mammoth__Vegas Golden Knights,Utah Mammoth,2.0,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:29:03Z
+fanduel,nhl,Utah Mammoth__Vegas Golden Knights,Vegas Golden Knights,1.83,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:29:03Z
+betrivers,nhl,Utah Mammoth__Vegas Golden Knights,Utah Mammoth,1.96,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:29:26Z
+betrivers,nhl,Utah Mammoth__Vegas Golden Knights,Vegas Golden Knights,1.85,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:29:26Z
+bovada,nhl,Utah Mammoth__Vegas Golden Knights,Utah Mammoth,1.97,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:29:11Z
+bovada,nhl,Utah Mammoth__Vegas Golden Knights,Vegas Golden Knights,1.85,2026-04-28T01:30:00Z,upcoming,2026-04-26T22:29:11Z
+fanduel,nhl,Boston Bruins__Buffalo Sabres,Buffalo Sabres,2.58,2026-04-28T23:40:00Z,upcoming,2026-04-26T22:29:03Z
+fanduel,nhl,Boston Bruins__Buffalo Sabres,Boston Bruins,1.52,2026-04-28T23:40:00Z,upcoming,2026-04-26T22:29:03Z
+betrivers,nhl,Boston Bruins__Buffalo Sabres,Buffalo Sabres,2.45,2026-04-28T23:40:00Z,upcoming,2026-04-26T22:29:26Z
+betrivers,nhl,Boston Bruins__Buffalo Sabres,Boston Bruins,1.56,2026-04-28T23:40:00Z,upcoming,2026-04-26T22:29:26Z
+fanduel,nhl,Dallas Stars__Minnesota Wild,Dallas Stars,1.78,2026-04-29T00:00:00Z,upcoming,2026-04-26T22:29:03Z
+fanduel,nhl,Dallas Stars__Minnesota Wild,Minnesota Wild,2.06,2026-04-29T00:00:00Z,upcoming,2026-04-26T22:29:03Z
+betrivers,nhl,Dallas Stars__Minnesota Wild,Dallas Stars,1.79,2026-04-29T00:00:00Z,upcoming,2026-04-26T22:29:26Z
+betrivers,nhl,Dallas Stars__Minnesota Wild,Minnesota Wild,2.05,2026-04-29T00:00:00Z,upcoming,2026-04-26T22:29:26Z
+bovada,nhl,Dallas Stars__Minnesota Wild,Dallas Stars,1.77,2026-04-29T00:00:00Z,upcoming,2026-04-26T22:29:11Z
+bovada,nhl,Dallas Stars__Minnesota Wild,Minnesota Wild,2.1,2026-04-29T00:00:00Z,upcoming,2026-04-26T22:29:11Z
+fanduel,nhl,Carolina Hurricanes__Philadelphia Flyers,Carolina Hurricanes,1.48,2026-05-05T23:00:09Z,upcoming,2026-04-26T22:29:03Z
+fanduel,nhl,Carolina Hurricanes__Philadelphia Flyers,Philadelphia Flyers,2.72,2026-05-05T23:00:09Z,upcoming,2026-04-26T22:29:03Z
+fanduel,nhl,Carolina Hurricanes__Pittsburgh Penguins,Carolina Hurricanes,1.48,2026-05-05T23:00:24Z,upcoming,2026-04-26T22:29:03Z
+fanduel,nhl,Carolina Hurricanes__Pittsburgh Penguins,Pittsburgh Penguins,2.72,2026-05-05T23:00:24Z,upcoming,2026-04-26T22:29:03Z

@@ -1,0 +1,49 @@
+sportsbook,sport,game_id,team,odds_decimal,commence_time,status,scrape_time
+fanduel,mlb,Arizona Diamondbacks__San Diego Padres,Arizona Diamondbacks,1.4,2026-04-26T20:06:00Z,live,2026-04-26T22:29:28Z
+fanduel,mlb,Arizona Diamondbacks__San Diego Padres,San Diego Padres,2.9,2026-04-26T20:06:00Z,live,2026-04-26T22:29:28Z
+betrivers,mlb,Arizona Diamondbacks__San Diego Padres,Arizona Diamondbacks,1.3,2026-04-26T20:06:00Z,live,2026-04-26T22:29:42Z
+betrivers,mlb,Arizona Diamondbacks__San Diego Padres,San Diego Padres,3.3,2026-04-26T20:06:00Z,live,2026-04-26T22:29:42Z
+bovada,mlb,Arizona Diamondbacks__San Diego Padres,Arizona Diamondbacks,1.4,2026-04-26T20:06:00Z,live,2026-04-26T22:28:16Z
+bovada,mlb,Arizona Diamondbacks__San Diego Padres,San Diego Padres,2.85,2026-04-26T20:06:00Z,live,2026-04-26T22:28:16Z
+fanduel,mlb,Miami Marlins__San Francisco Giants,San Francisco Giants,21.0,2026-04-26T20:06:00Z,live,2026-04-26T22:17:05Z
+fanduel,mlb,Miami Marlins__San Francisco Giants,Miami Marlins,1.0,2026-04-26T20:06:00Z,live,2026-04-26T22:17:05Z
+betrivers,mlb,Kansas City Royals__Los Angeles Angels,Kansas City Royals,3.35,2026-04-26T20:10:29Z,live,2026-04-26T22:29:42Z
+betrivers,mlb,Kansas City Royals__Los Angeles Angels,Los Angeles Angels,1.28,2026-04-26T20:10:29Z,live,2026-04-26T22:29:42Z
+bovada,mlb,Kansas City Royals__Los Angeles Angels,Kansas City Royals,3.25,2026-04-26T20:10:29Z,live,2026-04-26T22:28:16Z
+bovada,mlb,Kansas City Royals__Los Angeles Angels,Los Angeles Angels,1.32,2026-04-26T20:10:29Z,live,2026-04-26T22:28:16Z
+fanduel,mlb,Kansas City Royals__Los Angeles Angels,Kansas City Royals,3.4,2026-04-26T20:10:29Z,live,2026-04-26T22:28:44Z
+fanduel,mlb,Kansas City Royals__Los Angeles Angels,Los Angeles Angels,1.3,2026-04-26T20:10:29Z,live,2026-04-26T22:28:44Z
+fanduel,mlb,Colorado Rockies__New York Mets,New York Mets,1.14,2026-04-26T20:58:00Z,live,2026-04-26T22:29:28Z
+fanduel,mlb,Colorado Rockies__New York Mets,Colorado Rockies,5.5,2026-04-26T20:58:00Z,live,2026-04-26T22:29:28Z
+betrivers,mlb,Colorado Rockies__New York Mets,New York Mets,1.12,2026-04-26T20:58:00Z,live,2026-04-26T22:29:42Z
+betrivers,mlb,Colorado Rockies__New York Mets,Colorado Rockies,5.5,2026-04-26T20:58:00Z,live,2026-04-26T22:29:42Z
+bovada,mlb,Colorado Rockies__New York Mets,New York Mets,1.21,2026-04-26T20:58:00Z,live,2026-04-26T22:25:53Z
+bovada,mlb,Colorado Rockies__New York Mets,Colorado Rockies,4.2,2026-04-26T20:58:00Z,live,2026-04-26T22:25:53Z
+fanduel,mlb,Cleveland Guardians__Tampa Bay Rays,Cleveland Guardians,1.7,2026-04-27T22:11:00Z,upcoming,2026-04-26T22:29:28Z
+fanduel,mlb,Cleveland Guardians__Tampa Bay Rays,Tampa Bay Rays,2.2,2026-04-27T22:11:00Z,upcoming,2026-04-26T22:29:28Z
+betrivers,mlb,Cleveland Guardians__Tampa Bay Rays,Cleveland Guardians,1.63,2026-04-27T22:11:00Z,upcoming,2026-04-26T22:29:42Z
+betrivers,mlb,Cleveland Guardians__Tampa Bay Rays,Tampa Bay Rays,2.2,2026-04-27T22:11:00Z,upcoming,2026-04-26T22:29:42Z
+fanduel,mlb,Pittsburgh Pirates__St. Louis Cardinals,Pittsburgh Pirates,1.79,2026-04-27T22:41:00Z,upcoming,2026-04-26T22:29:28Z
+fanduel,mlb,Pittsburgh Pirates__St. Louis Cardinals,St. Louis Cardinals,2.08,2026-04-27T22:41:00Z,upcoming,2026-04-26T22:29:28Z
+betrivers,mlb,Pittsburgh Pirates__St. Louis Cardinals,Pittsburgh Pirates,1.76,2026-04-27T22:41:00Z,upcoming,2026-04-26T22:29:42Z
+betrivers,mlb,Pittsburgh Pirates__St. Louis Cardinals,St. Louis Cardinals,2.07,2026-04-27T22:41:00Z,upcoming,2026-04-26T22:29:42Z
+fanduel,mlb,Boston Red Sox__Toronto Blue Jays,Toronto Blue Jays,2.14,2026-04-27T23:08:00Z,upcoming,2026-04-26T22:29:28Z
+fanduel,mlb,Boston Red Sox__Toronto Blue Jays,Boston Red Sox,1.75,2026-04-27T23:08:00Z,upcoming,2026-04-26T22:29:28Z
+betrivers,mlb,Boston Red Sox__Toronto Blue Jays,Toronto Blue Jays,2.14,2026-04-27T23:08:00Z,upcoming,2026-04-26T22:29:42Z
+betrivers,mlb,Boston Red Sox__Toronto Blue Jays,Boston Red Sox,1.71,2026-04-27T23:08:00Z,upcoming,2026-04-26T22:29:42Z
+fanduel,mlb,Minnesota Twins__Seattle Mariners,Minnesota Twins,2.06,2026-04-27T23:41:00Z,upcoming,2026-04-26T22:29:28Z
+fanduel,mlb,Minnesota Twins__Seattle Mariners,Seattle Mariners,1.81,2026-04-27T23:41:00Z,upcoming,2026-04-26T22:29:28Z
+betrivers,mlb,Minnesota Twins__Seattle Mariners,Minnesota Twins,2.07,2026-04-27T23:41:00Z,upcoming,2026-04-26T22:29:42Z
+betrivers,mlb,Minnesota Twins__Seattle Mariners,Seattle Mariners,1.76,2026-04-27T23:41:00Z,upcoming,2026-04-26T22:29:42Z
+fanduel,mlb,New York Yankees__Texas Rangers,Texas Rangers,1.54,2026-04-28T00:06:00Z,upcoming,2026-04-26T22:29:28Z
+fanduel,mlb,New York Yankees__Texas Rangers,New York Yankees,2.56,2026-04-28T00:06:00Z,upcoming,2026-04-26T22:29:28Z
+betrivers,mlb,New York Yankees__Texas Rangers,Texas Rangers,1.53,2026-04-28T00:06:00Z,upcoming,2026-04-26T22:29:42Z
+betrivers,mlb,New York Yankees__Texas Rangers,New York Yankees,2.5,2026-04-28T00:06:00Z,upcoming,2026-04-26T22:29:42Z
+fanduel,mlb,Chicago Cubs__San Diego Padres,San Diego Padres,1.85,2026-04-28T01:41:00Z,upcoming,2026-04-26T22:29:28Z
+fanduel,mlb,Chicago Cubs__San Diego Padres,Chicago Cubs,2.0,2026-04-28T01:41:00Z,upcoming,2026-04-26T22:29:28Z
+betrivers,mlb,Chicago Cubs__San Diego Padres,San Diego Padres,1.8,2026-04-28T01:41:00Z,upcoming,2026-04-26T22:29:42Z
+betrivers,mlb,Chicago Cubs__San Diego Padres,Chicago Cubs,1.96,2026-04-28T01:41:00Z,upcoming,2026-04-26T22:29:42Z
+fanduel,mlb,Los Angeles Dodgers__Miami Marlins,Los Angeles Dodgers,1.33,2026-04-28T02:11:00Z,upcoming,2026-04-26T22:29:28Z
+fanduel,mlb,Los Angeles Dodgers__Miami Marlins,Miami Marlins,3.45,2026-04-28T02:11:00Z,upcoming,2026-04-26T22:29:28Z
+betrivers,mlb,Los Angeles Dodgers__Miami Marlins,Los Angeles Dodgers,1.32,2026-04-28T02:11:00Z,upcoming,2026-04-26T22:29:42Z
+betrivers,mlb,Los Angeles Dodgers__Miami Marlins,Miami Marlins,3.45,2026-04-28T02:11:00Z,upcoming,2026-04-26T22:29:42Z
