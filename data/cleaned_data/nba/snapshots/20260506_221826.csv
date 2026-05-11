@@ -1,0 +1,13 @@
+sportsbook,sport,game_id,team,odds_decimal,commence_time,status,scrape_time
+BetMGM,nba,76ers__knicks,76ers,4.5,,live,2026-05-06T22:18:37Z
+BetMGM,nba,76ers__knicks,knicks,1.222,,live,2026-05-06T22:18:37Z
+BetMGM,nba,76ers__knicks,76ers,4.5,,live,2026-05-06T22:18:40Z
+BetMGM,nba,76ers__knicks,knicks,1.222,,live,2026-05-06T22:18:40Z
+BetMGM,nba,spurs__timberwolves,timberwolves,4.2,2026-05-07T01:40:00Z,upcoming,2026-05-06T22:18:43Z
+BetMGM,nba,spurs__timberwolves,spurs,1.235,2026-05-07T01:40:00Z,upcoming,2026-05-06T22:18:43Z
+BetMGM,nba,spurs__timberwolves,timberwolves,4.2,2026-05-07T01:40:00Z,upcoming,2026-05-06T22:18:47Z
+BetMGM,nba,spurs__timberwolves,spurs,1.235,2026-05-07T01:40:00Z,upcoming,2026-05-06T22:18:47Z
+BetMGM,nba,cavaliers__pistons,cavaliers,2.35,2026-05-07T23:10:00Z,upcoming,2026-05-06T22:18:50Z
+BetMGM,nba,cavaliers__pistons,pistons,1.625,2026-05-07T23:10:00Z,upcoming,2026-05-06T22:18:50Z
+BetMGM,nba,lakers__thunder,lakers,7.5,2026-05-08T01:40:00Z,upcoming,2026-05-06T22:18:53Z
+BetMGM,nba,lakers__thunder,thunder,1.1,2026-05-08T01:40:00Z,upcoming,2026-05-06T22:18:53Z

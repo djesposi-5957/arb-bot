@@ -142,7 +142,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Read CSV and eliminate duplicate rows
-    df = pd.read_csv("data/arbitrage/arbitrage_master.csv")
+    df = pd.read_csv("../data/arbitrage/arbitrage_master.csv")
     df = df[df["sport"] != "sport"].copy()
     # Format time and profit margin for calculation
     df["time"] = pd.to_datetime(df["time"], format="%Y%m%d_%H%M%S")

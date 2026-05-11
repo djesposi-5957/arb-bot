@@ -1,0 +1,151 @@
+sportsbook,sport,game_id,team,odds_decimal,commence_time,status,scrape_time
+fanduel,mlb,blue jays__twins,twins,1.56,2026-05-03T16:46:00Z,live,2026-05-03T17:43:38Z
+fanduel,mlb,blue jays__twins,blue jays,2.4,2026-05-03T16:46:00Z,live,2026-05-03T17:43:38Z
+draftkings,mlb,blue jays__twins,twins,1.59,2026-05-03T16:46:00Z,live,2026-05-03T17:43:21Z
+draftkings,mlb,blue jays__twins,blue jays,2.3,2026-05-03T16:46:00Z,live,2026-05-03T17:43:21Z
+bovada,mlb,blue jays__twins,twins,1.53,2026-05-03T16:46:00Z,live,2026-05-03T17:43:18Z
+bovada,mlb,blue jays__twins,blue jays,2.45,2026-05-03T16:46:00Z,live,2026-05-03T17:43:18Z
+betmgm,mlb,blue jays__twins,twins,1.59,2026-05-03T16:46:00Z,live,2026-05-03T17:43:22Z
+betmgm,mlb,blue jays__twins,blue jays,2.35,2026-05-03T16:46:00Z,live,2026-05-03T17:43:22Z
+betrivers,mlb,blue jays__twins,twins,1.5,2026-05-03T16:46:00Z,live,2026-05-03T17:43:21Z
+betrivers,mlb,blue jays__twins,blue jays,2.4,2026-05-03T16:46:00Z,live,2026-05-03T17:43:21Z
+fanduel,mlb,orioles__yankees,yankees,3.35,2026-05-03T17:36:00Z,live,2026-05-03T17:41:47Z
+fanduel,mlb,orioles__yankees,orioles,1.31,2026-05-03T17:36:00Z,live,2026-05-03T17:41:47Z
+draftkings,mlb,orioles__yankees,yankees,2.81,2026-05-03T17:36:00Z,live,2026-05-03T17:43:22Z
+draftkings,mlb,orioles__yankees,orioles,1.41,2026-05-03T17:36:00Z,live,2026-05-03T17:43:22Z
+bovada,mlb,orioles__yankees,yankees,2.75,2026-05-03T17:36:00Z,live,2026-05-03T17:43:18Z
+bovada,mlb,orioles__yankees,orioles,1.43,2026-05-03T17:36:00Z,live,2026-05-03T17:43:18Z
+betmgm,mlb,orioles__yankees,yankees,2.95,2026-05-03T17:36:00Z,live,2026-05-03T17:43:22Z
+betmgm,mlb,orioles__yankees,orioles,1.4,2026-05-03T17:36:00Z,live,2026-05-03T17:43:22Z
+betrivers,mlb,orioles__yankees,yankees,3.0,2026-05-03T17:36:00Z,live,2026-05-03T17:43:21Z
+betrivers,mlb,orioles__yankees,orioles,1.35,2026-05-03T17:36:00Z,live,2026-05-03T17:43:21Z
+fanduel,mlb,pirates__reds,pirates,2.14,2026-05-03T17:36:00Z,live,2026-05-03T17:43:38Z
+fanduel,mlb,pirates__reds,reds,1.68,2026-05-03T17:36:00Z,live,2026-05-03T17:43:38Z
+draftkings,mlb,pirates__reds,pirates,1.99,2026-05-03T17:36:00Z,live,2026-05-03T17:43:21Z
+draftkings,mlb,pirates__reds,reds,1.78,2026-05-03T17:36:00Z,live,2026-05-03T17:43:21Z
+bovada,mlb,pirates__reds,pirates,2.1,2026-05-03T17:36:00Z,live,2026-05-03T17:43:18Z
+bovada,mlb,pirates__reds,reds,1.69,2026-05-03T17:36:00Z,live,2026-05-03T17:43:18Z
+betmgm,mlb,pirates__reds,pirates,2.05,2026-05-03T17:36:00Z,live,2026-05-03T17:43:22Z
+betmgm,mlb,pirates__reds,reds,1.74,2026-05-03T17:36:00Z,live,2026-05-03T17:43:22Z
+betrivers,mlb,pirates__reds,pirates,2.0,2026-05-03T17:36:00Z,live,2026-05-03T17:43:21Z
+betrivers,mlb,pirates__reds,reds,1.73,2026-05-03T17:36:00Z,live,2026-05-03T17:43:21Z
+fanduel,mlb,brewers__nationals,nationals,1.85,2026-05-03T17:36:00Z,live,2026-05-03T17:43:38Z
+fanduel,mlb,brewers__nationals,brewers,1.93,2026-05-03T17:36:00Z,live,2026-05-03T17:43:38Z
+draftkings,mlb,brewers__nationals,nationals,1.89,2026-05-03T17:36:00Z,live,2026-05-03T17:43:21Z
+draftkings,mlb,brewers__nationals,brewers,1.86,2026-05-03T17:36:00Z,live,2026-05-03T17:43:21Z
+bovada,mlb,brewers__nationals,nationals,1.77,2026-05-03T17:36:00Z,live,2026-05-03T17:43:18Z
+bovada,mlb,brewers__nationals,brewers,2.0,2026-05-03T17:36:00Z,live,2026-05-03T17:43:18Z
+betmgm,mlb,brewers__nationals,nationals,1.85,2026-05-03T17:36:00Z,live,2026-05-03T17:43:22Z
+betmgm,mlb,brewers__nationals,brewers,1.95,2026-05-03T17:36:00Z,live,2026-05-03T17:43:22Z
+betrivers,mlb,brewers__nationals,nationals,1.83,2026-05-03T17:36:00Z,live,2026-05-03T17:43:21Z
+betrivers,mlb,brewers__nationals,brewers,1.87,2026-05-03T17:36:00Z,live,2026-05-03T17:43:21Z
+fanduel,mlb,astros__red sox,red sox,1.44,2026-05-03T17:39:00Z,live,2026-05-03T17:43:38Z
+fanduel,mlb,astros__red sox,astros,2.72,2026-05-03T17:39:00Z,live,2026-05-03T17:43:38Z
+draftkings,mlb,astros__red sox,red sox,1.44,2026-05-03T17:39:00Z,live,2026-05-03T17:43:22Z
+draftkings,mlb,astros__red sox,astros,2.68,2026-05-03T17:39:00Z,live,2026-05-03T17:43:22Z
+betmgm,mlb,astros__red sox,red sox,1.45,2026-05-03T17:39:00Z,live,2026-05-03T17:43:22Z
+betmgm,mlb,astros__red sox,astros,2.75,2026-05-03T17:39:00Z,live,2026-05-03T17:43:22Z
+betrivers,mlb,astros__red sox,red sox,1.47,2026-05-03T17:39:00Z,live,2026-05-03T17:43:21Z
+betrivers,mlb,astros__red sox,astros,2.55,2026-05-03T17:39:00Z,live,2026-05-03T17:43:21Z
+bovada,mlb,astros__red sox,red sox,1.45,2026-05-03T17:39:00Z,live,2026-05-03T17:43:18Z
+bovada,mlb,astros__red sox,astros,2.65,2026-05-03T17:39:00Z,live,2026-05-03T17:43:18Z
+fanduel,mlb,marlins__phillies,marlins,2.5,2026-05-03T17:41:00Z,live,2026-05-03T17:43:38Z
+fanduel,mlb,marlins__phillies,phillies,1.52,2026-05-03T17:41:00Z,live,2026-05-03T17:43:38Z
+draftkings,mlb,marlins__phillies,marlins,2.35,2026-05-03T17:41:00Z,live,2026-05-03T17:43:22Z
+draftkings,mlb,marlins__phillies,phillies,1.56,2026-05-03T17:41:00Z,live,2026-05-03T17:43:22Z
+bovada,mlb,marlins__phillies,marlins,2.4,2026-05-03T17:41:00Z,live,2026-05-03T17:43:18Z
+bovada,mlb,marlins__phillies,phillies,1.54,2026-05-03T17:41:00Z,live,2026-05-03T17:43:18Z
+betmgm,mlb,marlins__phillies,marlins,2.45,2026-05-03T17:41:00Z,live,2026-05-03T17:43:22Z
+betmgm,mlb,marlins__phillies,phillies,1.54,2026-05-03T17:41:00Z,live,2026-05-03T17:43:22Z
+betrivers,mlb,marlins__phillies,marlins,2.45,2026-05-03T17:41:00Z,live,2026-05-03T17:43:21Z
+betrivers,mlb,marlins__phillies,phillies,1.48,2026-05-03T17:41:00Z,live,2026-05-03T17:43:21Z
+fanduel,mlb,giants__rays,rays,2.1,2026-05-03T17:41:00Z,live,2026-05-03T17:43:38Z
+fanduel,mlb,giants__rays,giants,1.71,2026-05-03T17:41:00Z,live,2026-05-03T17:43:38Z
+draftkings,mlb,giants__rays,rays,1.93,2026-05-03T17:41:00Z,live,2026-05-03T17:43:22Z
+draftkings,mlb,giants__rays,giants,1.83,2026-05-03T17:41:00Z,live,2026-05-03T17:43:22Z
+bovada,mlb,giants__rays,rays,1.91,2026-05-03T17:41:00Z,live,2026-05-03T17:43:18Z
+bovada,mlb,giants__rays,giants,1.83,2026-05-03T17:41:00Z,live,2026-05-03T17:43:18Z
+betmgm,mlb,giants__rays,rays,1.95,2026-05-03T17:41:00Z,live,2026-05-03T17:43:22Z
+betmgm,mlb,giants__rays,giants,1.85,2026-05-03T17:41:00Z,live,2026-05-03T17:43:22Z
+betrivers,mlb,giants__rays,rays,1.87,2026-05-03T17:41:00Z,live,2026-05-03T17:43:21Z
+betrivers,mlb,giants__rays,giants,1.83,2026-05-03T17:41:00Z,live,2026-05-03T17:43:21Z
+fanduel,mlb,cardinals__dodgers,cardinals,1.74,2026-05-03T18:16:00Z,upcoming,2026-05-03T17:43:38Z
+fanduel,mlb,cardinals__dodgers,dodgers,2.16,2026-05-03T18:16:00Z,upcoming,2026-05-03T17:43:38Z
+draftkings,mlb,cardinals__dodgers,cardinals,1.74,2026-05-03T18:16:00Z,upcoming,2026-05-03T17:43:22Z
+draftkings,mlb,cardinals__dodgers,dodgers,2.13,2026-05-03T18:16:00Z,upcoming,2026-05-03T17:43:22Z
+bovada,mlb,cardinals__dodgers,cardinals,1.75,2026-05-03T18:16:00Z,upcoming,2026-05-03T17:43:18Z
+bovada,mlb,cardinals__dodgers,dodgers,2.12,2026-05-03T18:16:00Z,upcoming,2026-05-03T17:43:18Z
+betmgm,mlb,cardinals__dodgers,cardinals,1.74,2026-05-03T18:16:00Z,upcoming,2026-05-03T17:43:22Z
+betmgm,mlb,cardinals__dodgers,dodgers,2.1,2026-05-03T18:16:00Z,upcoming,2026-05-03T17:43:22Z
+betrivers,mlb,cardinals__dodgers,cardinals,1.68,2026-05-03T18:16:00Z,upcoming,2026-05-03T17:43:21Z
+betrivers,mlb,cardinals__dodgers,dodgers,2.17,2026-05-03T18:16:00Z,upcoming,2026-05-03T17:43:21Z
+fanduel,mlb,cubs__diamondbacks,cubs,2.34,2026-05-03T18:21:00Z,upcoming,2026-05-03T17:43:38Z
+fanduel,mlb,cubs__diamondbacks,diamondbacks,1.63,2026-05-03T18:21:00Z,upcoming,2026-05-03T17:43:38Z
+draftkings,mlb,cubs__diamondbacks,cubs,2.35,2026-05-03T18:21:00Z,upcoming,2026-05-03T17:43:22Z
+draftkings,mlb,cubs__diamondbacks,diamondbacks,1.61,2026-05-03T18:21:00Z,upcoming,2026-05-03T17:43:22Z
+bovada,mlb,cubs__diamondbacks,cubs,2.34,2026-05-03T18:21:00Z,upcoming,2026-05-03T17:43:18Z
+bovada,mlb,cubs__diamondbacks,diamondbacks,1.62,2026-05-03T18:21:00Z,upcoming,2026-05-03T17:43:18Z
+betmgm,mlb,cubs__diamondbacks,cubs,2.35,2026-05-03T18:21:00Z,upcoming,2026-05-03T17:43:22Z
+betmgm,mlb,cubs__diamondbacks,diamondbacks,1.62,2026-05-03T18:21:00Z,upcoming,2026-05-03T17:43:22Z
+betrivers,mlb,cubs__diamondbacks,cubs,2.3,2026-05-03T18:21:00Z,upcoming,2026-05-03T17:43:21Z
+betrivers,mlb,cubs__diamondbacks,diamondbacks,1.62,2026-05-03T18:21:00Z,upcoming,2026-05-03T17:43:21Z
+fanduel,mlb,braves__rockies,rockies,1.68,2026-05-03T19:11:00Z,upcoming,2026-05-03T17:43:38Z
+fanduel,mlb,braves__rockies,braves,2.26,2026-05-03T19:11:00Z,upcoming,2026-05-03T17:43:38Z
+draftkings,mlb,braves__rockies,rockies,1.7,2026-05-03T19:11:00Z,upcoming,2026-05-03T17:43:22Z
+draftkings,mlb,braves__rockies,braves,2.19,2026-05-03T19:11:00Z,upcoming,2026-05-03T17:43:22Z
+bovada,mlb,braves__rockies,rockies,1.7,2026-05-03T19:11:00Z,upcoming,2026-05-03T17:43:18Z
+bovada,mlb,braves__rockies,braves,2.19,2026-05-03T19:11:00Z,upcoming,2026-05-03T17:43:18Z
+betmgm,mlb,braves__rockies,rockies,1.71,2026-05-03T19:11:00Z,upcoming,2026-05-03T17:43:22Z
+betmgm,mlb,braves__rockies,braves,2.15,2026-05-03T19:11:00Z,upcoming,2026-05-03T17:43:22Z
+betrivers,mlb,braves__rockies,rockies,1.64,2026-05-03T19:11:00Z,upcoming,2026-05-03T17:43:21Z
+betrivers,mlb,braves__rockies,braves,2.25,2026-05-03T19:11:00Z,upcoming,2026-05-03T17:43:21Z
+fanduel,mlb,athletics__guardians,athletics,2.08,2026-05-03T20:06:00Z,upcoming,2026-05-03T17:43:38Z
+fanduel,mlb,athletics__guardians,guardians,1.79,2026-05-03T20:06:00Z,upcoming,2026-05-03T17:43:38Z
+draftkings,mlb,athletics__guardians,athletics,2.09,2026-05-03T20:06:00Z,upcoming,2026-05-03T17:43:22Z
+draftkings,mlb,athletics__guardians,guardians,1.76,2026-05-03T20:06:00Z,upcoming,2026-05-03T17:43:22Z
+bovada,mlb,athletics__guardians,athletics,2.12,2026-05-03T20:06:00Z,upcoming,2026-05-03T17:43:18Z
+bovada,mlb,athletics__guardians,guardians,1.75,2026-05-03T20:06:00Z,upcoming,2026-05-03T17:43:18Z
+betmgm,mlb,athletics__guardians,athletics,2.05,2026-05-03T20:06:00Z,upcoming,2026-05-03T17:43:22Z
+betmgm,mlb,athletics__guardians,guardians,1.8,2026-05-03T20:06:00Z,upcoming,2026-05-03T17:43:22Z
+betrivers,mlb,athletics__guardians,athletics,2.0,2026-05-03T20:06:00Z,upcoming,2026-05-03T17:43:21Z
+betrivers,mlb,athletics__guardians,guardians,1.82,2026-05-03T20:06:00Z,upcoming,2026-05-03T17:43:21Z
+fanduel,mlb,angels__mets,angels,2.12,2026-05-03T20:08:00Z,upcoming,2026-05-03T17:43:38Z
+fanduel,mlb,angels__mets,mets,1.76,2026-05-03T20:08:00Z,upcoming,2026-05-03T17:43:38Z
+draftkings,mlb,angels__mets,angels,2.09,2026-05-03T20:08:00Z,upcoming,2026-05-03T17:43:22Z
+draftkings,mlb,angels__mets,mets,1.76,2026-05-03T20:08:00Z,upcoming,2026-05-03T17:43:22Z
+bovada,mlb,angels__mets,angels,2.1,2026-05-03T20:08:00Z,upcoming,2026-05-03T17:43:18Z
+bovada,mlb,angels__mets,mets,1.76,2026-05-03T20:08:00Z,upcoming,2026-05-03T17:43:18Z
+betmgm,mlb,angels__mets,angels,2.1,2026-05-03T20:08:00Z,upcoming,2026-05-03T17:43:22Z
+betmgm,mlb,angels__mets,mets,1.77,2026-05-03T20:08:00Z,upcoming,2026-05-03T17:43:22Z
+betrivers,mlb,angels__mets,angels,2.1,2026-05-03T20:08:00Z,upcoming,2026-05-03T17:43:21Z
+betrivers,mlb,angels__mets,mets,1.73,2026-05-03T20:08:00Z,upcoming,2026-05-03T17:43:21Z
+fanduel,mlb,padres__white sox,padres,2.38,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:38Z
+fanduel,mlb,padres__white sox,white sox,1.61,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:38Z
+draftkings,mlb,padres__white sox,padres,2.44,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:22Z
+draftkings,mlb,padres__white sox,white sox,1.57,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:22Z
+bovada,mlb,padres__white sox,padres,2.45,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:18Z
+bovada,mlb,padres__white sox,white sox,1.56,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:18Z
+betmgm,mlb,padres__white sox,padres,2.45,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:22Z
+betmgm,mlb,padres__white sox,white sox,1.57,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:22Z
+betrivers,mlb,padres__white sox,padres,2.55,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:21Z
+betrivers,mlb,padres__white sox,white sox,1.51,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:21Z
+fanduel,mlb,mariners__royals,mariners,2.04,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:38Z
+fanduel,mlb,mariners__royals,royals,1.82,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:38Z
+draftkings,mlb,mariners__royals,mariners,2.02,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:22Z
+draftkings,mlb,mariners__royals,royals,1.82,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:22Z
+bovada,mlb,mariners__royals,mariners,2.01,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:18Z
+bovada,mlb,mariners__royals,royals,1.83,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:18Z
+betmgm,mlb,mariners__royals,mariners,2.0,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:22Z
+betmgm,mlb,mariners__royals,royals,1.83,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:22Z
+betrivers,mlb,mariners__royals,mariners,1.95,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:21Z
+betrivers,mlb,mariners__royals,royals,1.83,2026-05-03T20:11:00Z,upcoming,2026-05-03T17:43:21Z
+fanduel,mlb,rangers__tigers,tigers,1.83,2026-05-03T23:21:00Z,upcoming,2026-05-03T17:43:38Z
+fanduel,mlb,rangers__tigers,rangers,2.02,2026-05-03T23:21:00Z,upcoming,2026-05-03T17:43:38Z
+draftkings,mlb,rangers__tigers,tigers,1.79,2026-05-03T23:21:00Z,upcoming,2026-05-03T17:43:22Z
+draftkings,mlb,rangers__tigers,rangers,2.04,2026-05-03T23:21:00Z,upcoming,2026-05-03T17:43:22Z
+betrivers,mlb,rangers__tigers,tigers,1.76,2026-05-03T23:21:00Z,upcoming,2026-05-03T17:43:21Z
+betrivers,mlb,rangers__tigers,rangers,2.06,2026-05-03T23:21:00Z,upcoming,2026-05-03T17:43:21Z
+betmgm,mlb,rangers__tigers,tigers,1.83,2026-05-03T23:21:00Z,upcoming,2026-05-03T17:43:22Z
+betmgm,mlb,rangers__tigers,rangers,2.0,2026-05-03T23:21:00Z,upcoming,2026-05-03T17:43:22Z
+bovada,mlb,rangers__tigers,tigers,1.76,2026-05-03T23:21:00Z,upcoming,2026-05-03T17:43:18Z
+bovada,mlb,rangers__tigers,rangers,2.09,2026-05-03T23:21:00Z,upcoming,2026-05-03T17:43:18Z

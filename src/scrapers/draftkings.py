@@ -159,7 +159,7 @@ class DraftKingsScraper:
 
             data_list.append(data_team)
         timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
-        filename = f"data/raw_data/{sport}/{sport}_{timestamp}.json"
+        filename = f"../data/raw_data/{sport}/{sport}_{timestamp}.json"
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(data_list, f, indent=2)
         return data_list

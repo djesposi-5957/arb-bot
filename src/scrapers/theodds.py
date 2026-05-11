@@ -35,7 +35,7 @@ class TheOddsApiCall:
 
         odds_json = odds_response.json()
         timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
-        filename = f"data/raw_data/{save_sport}/{save_sport}_{timestamp}.json"
+        filename = f"../data/raw_data/{save_sport}/{save_sport}_{timestamp}.json"
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(odds_json, f, indent=2)
         return odds_json

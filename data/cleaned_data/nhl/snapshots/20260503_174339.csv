@@ -1,0 +1,41 @@
+sportsbook,sport,game_id,team,odds_decimal,commence_time,status,scrape_time
+draftkings,nhl,canadiens__lightning,lightning,2.42,2026-05-03T22:10:00Z,upcoming,2026-05-03T17:42:02Z
+draftkings,nhl,canadiens__lightning,canadiens,1.59,2026-05-03T22:10:00Z,upcoming,2026-05-03T17:42:02Z
+betrivers,nhl,canadiens__lightning,lightning,2.4,2026-05-03T22:10:00Z,upcoming,2026-05-03T17:43:34Z
+betrivers,nhl,canadiens__lightning,canadiens,1.57,2026-05-03T22:10:00Z,upcoming,2026-05-03T17:43:34Z
+betmgm,nhl,canadiens__lightning,lightning,2.4,2026-05-03T22:10:00Z,upcoming,2026-05-03T17:42:56Z
+betmgm,nhl,canadiens__lightning,canadiens,1.59,2026-05-03T22:10:00Z,upcoming,2026-05-03T17:42:56Z
+fanduel,nhl,canadiens__lightning,lightning,2.4,2026-05-03T22:10:00Z,upcoming,2026-05-03T17:43:17Z
+fanduel,nhl,canadiens__lightning,canadiens,1.59,2026-05-03T22:10:00Z,upcoming,2026-05-03T17:43:17Z
+bovada,nhl,canadiens__lightning,lightning,2.45,2026-05-03T22:10:00Z,upcoming,2026-05-03T17:40:08Z
+bovada,nhl,canadiens__lightning,canadiens,1.59,2026-05-03T22:10:00Z,upcoming,2026-05-03T17:40:08Z
+fanduel,nhl,avalanche__wild,avalanche,1.49,2026-05-04T01:10:15Z,upcoming,2026-05-03T17:43:17Z
+fanduel,nhl,avalanche__wild,wild,2.68,2026-05-04T01:10:15Z,upcoming,2026-05-03T17:43:17Z
+betmgm,nhl,avalanche__wild,avalanche,1.5,2026-05-04T01:10:15Z,upcoming,2026-05-03T17:42:56Z
+betmgm,nhl,avalanche__wild,wild,2.65,2026-05-04T01:10:15Z,upcoming,2026-05-03T17:42:56Z
+draftkings,nhl,avalanche__wild,avalanche,1.49,2026-05-04T01:10:15Z,upcoming,2026-05-03T17:42:02Z
+draftkings,nhl,avalanche__wild,wild,2.7,2026-05-04T01:10:15Z,upcoming,2026-05-03T17:42:02Z
+betrivers,nhl,avalanche__wild,avalanche,1.45,2026-05-04T01:10:15Z,upcoming,2026-05-03T17:43:34Z
+betrivers,nhl,avalanche__wild,wild,2.75,2026-05-04T01:10:15Z,upcoming,2026-05-03T17:43:34Z
+bovada,nhl,avalanche__wild,avalanche,1.5,2026-05-04T01:10:15Z,upcoming,2026-05-03T17:40:08Z
+bovada,nhl,avalanche__wild,wild,2.7,2026-05-04T01:10:15Z,upcoming,2026-05-03T17:40:08Z
+draftkings,nhl,flyers__hurricanes,hurricanes,1.39,2026-05-04T23:10:00Z,upcoming,2026-05-03T17:42:02Z
+draftkings,nhl,flyers__hurricanes,flyers,3.1,2026-05-04T23:10:00Z,upcoming,2026-05-03T17:42:02Z
+betmgm,nhl,flyers__hurricanes,hurricanes,1.36,2026-05-04T23:10:00Z,upcoming,2026-05-03T17:42:56Z
+betmgm,nhl,flyers__hurricanes,flyers,3.2,2026-05-04T23:10:00Z,upcoming,2026-05-03T17:42:56Z
+fanduel,nhl,flyers__hurricanes,hurricanes,1.38,2026-05-04T23:10:00Z,upcoming,2026-05-03T17:43:17Z
+fanduel,nhl,flyers__hurricanes,flyers,3.1,2026-05-04T23:10:00Z,upcoming,2026-05-03T17:43:17Z
+betrivers,nhl,flyers__hurricanes,hurricanes,1.36,2026-05-04T23:10:00Z,upcoming,2026-05-03T17:43:34Z
+betrivers,nhl,flyers__hurricanes,flyers,3.15,2026-05-04T23:10:00Z,upcoming,2026-05-03T17:43:34Z
+bovada,nhl,flyers__hurricanes,hurricanes,1.41,2026-05-04T23:10:00Z,upcoming,2026-05-03T17:40:08Z
+bovada,nhl,flyers__hurricanes,flyers,3.05,2026-05-04T23:10:00Z,upcoming,2026-05-03T17:40:08Z
+fanduel,nhl,ducks__golden knights,golden knights,2.36,2026-05-05T01:40:18Z,upcoming,2026-05-03T17:43:17Z
+fanduel,nhl,ducks__golden knights,ducks,1.61,2026-05-05T01:40:18Z,upcoming,2026-05-03T17:43:17Z
+draftkings,nhl,ducks__golden knights,golden knights,2.4,2026-05-05T01:40:18Z,upcoming,2026-05-03T17:42:02Z
+draftkings,nhl,ducks__golden knights,ducks,1.6,2026-05-05T01:40:18Z,upcoming,2026-05-03T17:42:02Z
+betmgm,nhl,ducks__golden knights,golden knights,2.35,2026-05-05T01:40:18Z,upcoming,2026-05-03T17:42:56Z
+betmgm,nhl,ducks__golden knights,ducks,1.61,2026-05-05T01:40:18Z,upcoming,2026-05-03T17:42:56Z
+betrivers,nhl,ducks__golden knights,golden knights,2.5,2026-05-05T01:40:18Z,upcoming,2026-05-03T17:43:34Z
+betrivers,nhl,ducks__golden knights,ducks,1.54,2026-05-05T01:40:18Z,upcoming,2026-05-03T17:43:34Z
+bovada,nhl,ducks__golden knights,golden knights,2.42,2026-05-05T01:40:18Z,upcoming,2026-05-03T17:40:08Z
+bovada,nhl,ducks__golden knights,ducks,1.6,2026-05-05T01:40:18Z,upcoming,2026-05-03T17:40:08Z
