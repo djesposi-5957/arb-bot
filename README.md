@@ -194,6 +194,8 @@ Run the main pipeline:
 ```python
 python main.py
 ```
+The main file must be run with arguments `--site` and `--sport` or else it will fail. Please run `python main.py -h` for any help.
+
 The main script handles:
 
 - Data collection
