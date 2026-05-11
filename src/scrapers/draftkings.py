@@ -14,10 +14,13 @@ import json
 
 
 class DraftKingsScraper:
+
+    # Initialize scraper for draftkings
     def __init__(self):
         self.name = "Draft Kings"
         self.url = "https://sportsbook.draftkings.com/"
 
+    # Simple request to make sure site is reachable
     def fetch_response(self):
         try:
             response = requests.get(self.url, impersonate="chrome")
@@ -26,6 +29,7 @@ class DraftKingsScraper:
         except:
             return None
 
+    # Turns american odds into decimal for easier math later on
     def american_to_decimal(self, odds_str):
         odds_str = odds_str.strip().replace("−", "-")
         odds = int(odds_str)
@@ -34,6 +38,7 @@ class DraftKingsScraper:
         else:
             return round(1 + (100 / abs(odds)), 3)
 
+    # Gets the url for the correct sport
     def fetch_sport_url(self, sport):
         if sport == "nba":
             NBA_url = f"{self.url}leagues/basketball/nba"
@@ -45,6 +50,7 @@ class DraftKingsScraper:
             MLB_url = f"{self.url}leagues/baseball/mlb"
             return MLB_url
 
+    # Starts the driver with optional arguments
     def start_driver(self, headless):
         options = Options()
         options.add_argument("--headless=new")
@@ -59,9 +65,11 @@ class DraftKingsScraper:
 
         return driver
 
+    # Converts time from scraped site to utc time
     def convert_time(self, date, time):
         now = datetime.now(ZoneInfo("America/Los_Angeles"))
         date_text = date.strip()
+        # Necessary line as date and time are not spaced apart rather the site uses this char \u202f
         time_text = time.replace("\u202f", " ")
 
         if date_text.lower() == "today":
@@ -69,24 +77,27 @@ class DraftKingsScraper:
         elif date_text.lower() == "tomorrow":
             game_date = (now + timedelta(days=1)).date()
         else:
-
+            # Important regex for dates to replace suffixes and keep digits
             cleaned_date = re.sub(r'(\d{1,2})(st|nd|rd|th)', r'\1', date_text)
 
             parts = cleaned_date.split()
             month_day = " ".join(parts[1:])
-
+            # Convert month/day into a date object
             game_date = datetime.strptime(month_day,  "%b %d").date()
             game_date = game_date.replace(year=now.year)
-
+        # Convert scraped time into time object
         local_time = datetime.strptime(time_text, "%I:%M %p").time()
+        # Combine the game date and time into a single datetime object
         local_dt = datetime.combine(game_date, local_time)
+        # Assign Pacific Time timezone to the datetime
         local_dt = local_dt.replace(tzinfo=ZoneInfo("America/Los_Angeles"))
-
+        # Convert the local Pacific time to UTC for consistent storage
         utc_dt = local_dt.astimezone(ZoneInfo("UTC"))
 
-
+        # Return the datetime in ISO 8601 UTC format
         return utc_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
 
+    # Most important function of the class, it is what gathers the data for each sport
     def fetch_data(self, sport, headless):
         response = self.fetch_response()
 
@@ -98,6 +109,7 @@ class DraftKingsScraper:
         scrape_sport = self.fetch_sport_url(sport)
         driver.get(scrape_sport)
         time.sleep(3)
+        # Grab links from the current page to scrape later
         link_elements = WebDriverWait(driver, 20).until(
             EC.presence_of_all_elements_located(
                 (By.CSS_SELECTOR, 'a[data-testid="lp-nav-link"]')
@@ -105,16 +117,17 @@ class DraftKingsScraper:
         )
 
         links = []
-
+        # If link then add to links list
         for element in link_elements:
             href = element.get_attribute("href")
             if href and href not in links and href[-4:] != "true":
                 links.append(href)
-
+        # Makes sure only one link for each game is present
         links = list(set(links))
         for game in links:
             driver.get(game)
             time.sleep(1)
+            # Gets time information from scoreboard
             try:
                 time_element = driver.find_element(By.CSS_SELECTOR, 'p[data-testid="scoreboard-date"]')
                 start_time = time_element.text
@@ -132,19 +145,20 @@ class DraftKingsScraper:
                 commence_time = None
             except Exception:
                 commence_time = None
-
+            # Gets both teams from the scoreboard
             teams = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div[class*='participantName']")))
             buttons = driver.find_elements(By.CSS_SELECTOR,  "span[data-testid='button-odds-market-board']")
+            # Gets all buttons on the page with numbers on them
             bttn_list = []
             for btn in buttons:
                 bttn_list.append(btn.text)
-
+            # Adds odds to list
             moneyline_odds = [item.strip() for item in bttn_list if "\n" not in item]
             if len(moneyline_odds) < 6:
                 continue
-
+            # Adds teams to list
             team_names = [t.text.strip() for t in teams]
-
+            # Prepares data
             data_team = {
                 "sportsbook": self.name,
                 "sport": sport,
@@ -163,6 +177,7 @@ class DraftKingsScraper:
 
             data_list.append(data_team)
         timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+        # Creates raw data to be saved
         filename = f"../data/raw_data/{sport}/{sport}_{timestamp}.json"
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(data_list, f, indent=2)

@@ -12,19 +12,22 @@ from zoneinfo import ZoneInfo
 import json
 
 class BetMGMScraper:
+    # Initialize scraper for betmgm
     def __init__(self):
         self.name = "BetMGM"
         self.url = ("https://www.az.betmgm.com/")
 
+    # Simple request to make sure site is reachable
     def fetch_response(self):
         try:
             resposne = requests.get(self.url, impersonate="chrome")
             return resposne
         except:
             return None
-
+    # Turns odds from american to decimal
     def american_to_decimal(self, odds_str):
         odds_str = odds_str.strip().replace("−", "-")
+        # In headless mode odds are already in decimal form so try is necessary
         try:
             odds = int(odds_str)
             if odds > 0:
@@ -34,6 +37,7 @@ class BetMGMScraper:
         except:
             return float(odds_str)
 
+    # Gets the url for the correct sport
     def fetch_sport_url(self, sport):
         if sport == "nba":
             NBA_url = f"{self.url}en/sports/basketball-7/betting/usa-9/nba-6004"
@@ -45,6 +49,7 @@ class BetMGMScraper:
             MLB_url = f"{self.url}en/sports/baseball-23/betting/usa-9/mlb-75"
             return MLB_url
 
+    # Starts the driver with optional arguments
     def start_driver(self, headless):
         options = Options()
         options.add_argument("--headless=new")
@@ -58,9 +63,11 @@ class BetMGMScraper:
             driver = webdriver.Chrome()
         return driver
 
+    # Converts time from scraped site to utc time
     def convert_time(self, date, time):
         now = datetime.now(ZoneInfo("America/Los_Angeles"))
         date_text = date.strip()
+        # Necessary line as date and time are not spaced apart rather the site uses this char \u202f
         time_text = time.replace("\u202f", " ")
 
         if date_text.lower() == "today":
@@ -69,15 +76,18 @@ class BetMGMScraper:
             game_date = (now + timedelta(days=1)).date()
         else:
             game_date = datetime.strptime(date_text, "%m/%d/%y").date()
-
+        # Convert scraped time into time object
         local_time = datetime.strptime(time_text, "%I:%M %p").time()
+        # Combine the game date and time into a single datetime object
         local_dt = datetime.combine(game_date, local_time)
+        # Assign Pacific Time timezone to the datetime
         local_dt = local_dt.replace(tzinfo=ZoneInfo("America/Los_Angeles"))
-
+        # Convert the local Pacific time to UTC for consistent storage
         utc_dt = local_dt.astimezone(ZoneInfo("UTC"))
-
+        # Return the datetime in ISO 8601 UTC format
         return utc_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
 
+    # Most important function of the class, it is what gathers the data for each sport
     def fetch_data(self, sport, headless):
         response = self.fetch_response()
 
@@ -90,26 +100,32 @@ class BetMGMScraper:
         driver.get(scrape_sport)
 
         time.sleep(5)
-        driver.save_screenshot("headless_debug.png")
 
+        # Grab links from the current page to scrape later
         elements = driver.find_elements(By.CSS_SELECTOR, 'a[href*="/en/sports/events/"]')
 
 
         links = []
+        # If link then add to links list
         for el in elements:
             href = el.get_attribute("href")
             if href:
                 links.append(href)
-
+        # Makes sure only one link for each game is present
         links = list(set(links))
         for game in links:
             driver.get(game)
             time.sleep(3)
+            # Find all betting rows
             rows = driver.find_elements(By.CSS_SELECTOR, "ms-six-pack-option-group .option-row")
             try:
+                #  Locate the main scoreboard container for the event
                 scoreboard = driver.find_element(By.TAG_NAME, "ms-prematch-scoreboard")
+                # Extract the displayed game date
                 date_text = scoreboard.find_element(By.CSS_SELECTOR, ".event-time .date").text.strip()
+                # Extract the displayed game start time
                 time_text = scoreboard.find_element(By.CSS_SELECTOR, ".event-time .time").text.strip()
+
                 commence_time = self.convert_time(date_text, time_text)
             except NoSuchElementException:
                 commence_time = None
@@ -122,20 +138,20 @@ class BetMGMScraper:
 
             for row in rows:
                 try:
-
+                    # Extract the team name from the current betting row
                     team = row.find_element(By.CSS_SELECTOR, "div.six-pack-player-name span").text.strip()
+                    # Find all betting option buttons for the row
                     options = row.find_elements(By.CSS_SELECTOR, "div.options-container ms-option")
-
+                    # Skip rows that do not contain enough betting options
                     if len(options) < 3:
-
                         continue
-
+                    # Select the moneyline betting option
                     moneyline_span = options[2].find_elements(By.CSS_SELECTOR, "span.custom-odds-value-style")
                     if not moneyline_span:
                         continue
-
+                    # Extract the displayed moneyline odds
                     moneyline_odds = moneyline_span[0].text.strip()
-
+                    # Store the extracted team and odds data
                     records.append({
                         "team": team,
                         "odds_american": moneyline_odds
@@ -145,7 +161,7 @@ class BetMGMScraper:
                     print("Row failed:", e)
 
             if len(records) != 0:
-
+                # Prepares data
                 data_team = {
                     "sportsbook": self.name,
                     "sport": sport,
@@ -163,6 +179,7 @@ class BetMGMScraper:
 
                 data_list.append(data_team)
         timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+        # Creates raw data to be saved
         filename = f"../data/raw_data/{sport}/{sport}_{timestamp}.json"
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(data_list, f, indent=2)
