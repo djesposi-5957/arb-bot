@@ -1,0 +1,200 @@
+[
+  {
+    "id": "7e034282e0ef033daa6d2f5e974f2933",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2026-05-10T23:15:00Z",
+    "home_team": "Montr\u00e9al Canadiens",
+    "away_team": "Buffalo Sabres",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-05-11T00:48:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-11T00:48:43Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Sabres",
+                "price": 16.0
+              },
+              {
+                "name": "Montr\u00e9al Canadiens",
+                "price": 1.01
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-05-11T00:43:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-11T00:43:28Z",
+            "outcomes": [
+              {
+                "name": "Buffalo Sabres",
+                "price": 7.0
+              },
+              {
+                "name": "Montr\u00e9al Canadiens",
+                "price": 1.09
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "928fcf1398f0f1814ca5aeebaae169b7",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2026-05-11T01:40:00Z",
+    "home_team": "Anaheim Ducks",
+    "away_team": "Vegas Golden Knights",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-05-11T00:48:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-11T00:48:43Z",
+            "outcomes": [
+              {
+                "name": "Anaheim Ducks",
+                "price": 1.87
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 1.96
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-05-11T00:49:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-11T00:49:10Z",
+            "outcomes": [
+              {
+                "name": "Anaheim Ducks",
+                "price": 1.89
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 1.92
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-05-11T00:43:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-11T00:43:28Z",
+            "outcomes": [
+              {
+                "name": "Anaheim Ducks",
+                "price": 1.83
+              },
+              {
+                "name": "Vegas Golden Knights",
+                "price": 2.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5058a52208f300b86ae178b9da64d51e",
+    "sport_key": "icehockey_nhl",
+    "sport_title": "NHL",
+    "commence_time": "2026-05-12T00:10:00Z",
+    "home_team": "Minnesota Wild",
+    "away_team": "Colorado Avalanche",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-05-11T00:48:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-11T00:48:43Z",
+            "outcomes": [
+              {
+                "name": "Colorado Avalanche",
+                "price": 1.8
+              },
+              {
+                "name": "Minnesota Wild",
+                "price": 2.04
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-05-11T00:49:10Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-11T00:49:10Z",
+            "outcomes": [
+              {
+                "name": "Colorado Avalanche",
+                "price": 1.75
+              },
+              {
+                "name": "Minnesota Wild",
+                "price": 2.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-05-11T00:43:28Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-05-11T00:43:28Z",
+            "outcomes": [
+              {
+                "name": "Colorado Avalanche",
+                "price": 1.78
+              },
+              {
+                "name": "Minnesota Wild",
+                "price": 2.07
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
