@@ -266,7 +266,6 @@ DSCI510_Project/
 │       ├── betmgm.py
 │       ├── draftkings.py
 │       └── theodds.py
-│
-└── venv/
+
 ```
 
