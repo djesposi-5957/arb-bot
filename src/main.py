@@ -126,8 +126,8 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--site", nargs="+", choices=all_books + ["all"], required=True, help="Two or more sportsbooks")
-    parser.add_argument("--sport", nargs="+", choices=all_sports + ["all"], required=True, help="One or more sports")
+    parser.add_argument("--site", nargs="+", metavar="SPORTSBOOK", choices=all_books + ["all"], required=True, help=f"Two or more sportsbooks. Choices: {', '.join(all_books + ['all'])}")
+    parser.add_argument("--sport", nargs="+", metavar="SPORT", choices=all_sports + ["all"], required=True, help=f"One or more sports. Choices: {', '.join(all_sports + ['all'])}")
     parser.add_argument("--interval", type=int, default=90, help="Time between scrape cycles in seconds")
     parser.add_argument("--headless", type=bool, default=False, help="Browser run in headless or non-headless mode")
 
