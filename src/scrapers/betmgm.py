@@ -25,11 +25,14 @@ class BetMGMScraper:
 
     def american_to_decimal(self, odds_str):
         odds_str = odds_str.strip().replace("−", "-")
-        odds = int(odds_str)
-        if odds > 0:
-            return round(1 + (odds / 100), 3)
-        else:
-            return round(1 + (100 / abs(odds)), 3)
+        try:
+            odds = int(odds_str)
+            if odds > 0:
+                return round(1 + (odds / 100), 3)
+            else:
+                return round(1 + (100 / abs(odds)), 3)
+        except:
+            return float(odds_str)
 
     def fetch_sport_url(self, sport):
         if sport == "nba":
@@ -98,6 +101,7 @@ class BetMGMScraper:
             if href:
                 links.append(href)
 
+        links = list(set(links))
         for game in links:
             driver.get(game)
             time.sleep(3)

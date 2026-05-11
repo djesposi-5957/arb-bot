@@ -49,6 +49,8 @@ class DraftKingsScraper:
         options = Options()
         options.add_argument("--headless=new")
         options.add_argument("--no-sandbox")
+        options.add_argument("--window-size=1920,1080")
+        options.add_argument("--disable-gpu")
         options.add_argument("--disable-dev-shm-usage")
         if headless:
             driver = webdriver.Chrome(options=options)
@@ -106,9 +108,10 @@ class DraftKingsScraper:
 
         for element in link_elements:
             href = element.get_attribute("href")
-            if href and href not in links and href[-4:] == "true":
+            if href and href not in links and href[-4:] != "true":
                 links.append(href)
 
+        links = list(set(links))
         for game in links:
             driver.get(game)
             time.sleep(1)
@@ -130,14 +133,15 @@ class DraftKingsScraper:
             except Exception:
                 commence_time = None
 
-            teams = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'p[data-testid="market-label"')))
-            buttons = driver.find_elements(By.CSS_SELECTOR, 'button[data-testid="market-button"')
+            teams = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div[class*='participantName']")))
+            buttons = driver.find_elements(By.CSS_SELECTOR,  "span[data-testid='button-odds-market-board']")
             bttn_list = []
             for btn in buttons:
                 bttn_list.append(btn.text)
 
             moneyline_odds = [item.strip() for item in bttn_list if "\n" not in item]
-
+            if len(moneyline_odds) < 6:
+                continue
 
             team_names = [t.text.strip() for t in teams]
 
@@ -145,10 +149,10 @@ class DraftKingsScraper:
                 "sportsbook": self.name,
                 "sport": sport,
                 "teamA": team_names[0].lower(),
-                "moneylineA": moneyline_odds[0],
+                "moneylineA": moneyline_odds[2],
                 "odds_decimalA": self.american_to_decimal(moneyline_odds[0]),
-                "teamB": team_names[1].lower(),
-                "moneylineB": moneyline_odds[1],
+                "teamB": team_names[2].lower(),
+                "moneylineB": moneyline_odds[5],
                 "odds_decimalB": self.american_to_decimal(moneyline_odds[1]),
                 "game_url": game,
                 "commence_time": commence_time,
