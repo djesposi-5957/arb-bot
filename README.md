@@ -171,8 +171,8 @@ The project generates:
 Clone the repository:
 
 ```bash
-git clone <repository_url>
-cd <repository_name>
+git clone https://github.com/djesposi-5957/arb-bot.git
+cd arb-bot
 ```
 Create virtual environment:
 ```python
