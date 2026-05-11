@@ -27,7 +27,6 @@ The system continuously gathers betting odds across multiple sports and analyzes
 - Bovada
 - BetRivers
 
-API sportsbooks are collected through The Odds API.
 
 ---
 
